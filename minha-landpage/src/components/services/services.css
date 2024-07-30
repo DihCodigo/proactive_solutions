@@ -1,0 +1,270 @@
+/* Estilo para a seção de serviços */
+.services {
+    padding: 20px;
+    background-color: #444141;
+    text-align: center;
+    min-height: 100vh; /* Garantir que ocupe a altura total da tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.75);
+}
+
+/* Estilo para o subtítulo e título */
+.subtitle {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #444;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilo para o container dos cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Estilo para os cards */
+.card {
+    width: 350px;
+    height: 300px; /* Ajuste a altura para melhor visualização */
+    background: #243137;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    padding: 20px;
+    color: #fff; /* Garantir que o texto fique visível */
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.card p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: wheat;
+    text-align: center;
+}
+
+/* Estilo para o SVG do ícone */
+.logo {
+    height: 80px; /* Ajuste o tamanho conforme necessário */
+    width: 80px; /* Ajuste o tamanho conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#logo-main {
+    height: 100%;
+    width: 100%;
+    fill: aqua; /* Cor do ícone */
+}
+
+/* Estilo para o texto abaixo do logo */
+.logo-bottom-text {
+    margin-top: 10px;
+    color: aqua;
+    padding-left: 8px;
+    font-size: 28px; /* Ajuste o tamanho conforme necessário */
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Estilo para detalhes do card */
+.details {
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Estilo para o texto de leitura mais */
+.bottom-text {
+    position: absolute;
+    left: 50%;
+    bottom: 13px;
+    transform: translateX(-50%);
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    color: #00d1b2;
+    background: #243137;
+    opacity: 0;
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Estilo para a borda do card */
+.border {
+    position: absolute;
+    inset: 0;
+    border: 2px solid aqua;
+    opacity: 0;
+    transform: rotate(10deg);
+    transition: all 0.5s ease-in-out;
+}
+
+/* Estilo para o conteúdo do card */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Estilo para o card ao ser hover */
+.card:hover {
+    border-radius: 0;
+    transform: scale(1.1);
+}
+
+.card:hover .logo {
+    width: 100px; /* Ajuste conforme necessário */
+}
+
+.card:hover .border {
+    inset: 15px;
+    opacity: 1;
+    transform: rotate(0);
+}
+
+.card:hover .bottom-text {
+    letter-spacing: 3px;
+    opacity: 1;
+    transform: translateX(-50%);
+}
+
+.card:hover .details {
+    opacity: 1;
+}
+
+.card:hover .logo-bottom-text {
+    opacity: 1;
+    letter-spacing: 2px;
+}
+
+.card:hover .trail {
+    animation: trail 1s ease-in-out;
+}
+
+/* Animações */
+@keyframes opacity {
+    0% {
+        border-right: 1px solid transparent;
+    }
+
+    10% {
+        border-right: 1px solid #bd9f67;
+    }
+
+    80% {
+        border-right: 1px solid #bd9f67;
+    }
+
+    100% {
+        border-right: 1px solid transparent;
+    }
+}
+
+@keyframes trail {
+    0% {
+        background: linear-gradient(90deg, rgba(189, 159, 103, 0) 90%, rgb(189, 159, 103) 100%);
+        opacity: 0;
+    }
+
+    30% {
+        background: linear-gradient(90deg, rgba(189, 159, 103, 0) 70%, rgb(189, 159, 103) 100%);
+        opacity: 1;
+    }
+
+    70% {
+        background: linear-gradient(90deg, rgba(189, 159, 103, 0) 70%, rgb(189, 159, 103) 100%);
+        opacity: 1;
+    }
+
+    95% {
+        background: linear-gradient(90deg, rgba(189, 159, 103, 0) 90%, rgb(189, 159, 103) 100%);
+        opacity: 0;
+    }
+}
+
+/* Regras de mídia para responsividade */
+@media (max-width: 1200px) {
+    .card {
+        width: 300px;
+        height: 250px; /* Ajuste conforme necessário */
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .logo {
+        height: 60px; /* Ajuste conforme necessário */
+        width: 60px; /* Ajuste conforme necessário */
+    }
+
+    .logo-bottom-text {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 900px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 350px; /* Ajuste conforme necessário */
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        height: auto; /* Ajusta a altura automaticamente */
+        padding: 15px;
+    }
+
+    .card h3 {
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 10px;
+    }
+
+    .logo {
+        height: 50px; /* Ajuste conforme necessário */
+        width: 50px; /* Ajuste conforme necessário */
+    }
+
+    .logo-bottom-text {
+        font-size: 20px;
+    }
+}
