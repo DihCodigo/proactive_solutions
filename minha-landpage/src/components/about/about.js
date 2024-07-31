@@ -7,22 +7,22 @@ const About = () => {
   const statsData = [
     {
       icon: faUserTie,
-      value: '++1',
+      value: '+4',
       label: 'Especialistas'
     },
     {
       icon: faClock,
-      value: '+1M',
+      value: '+1000Horas',
       label: 'Horas em Desenvolvimento'
     },
     {
       icon: faLaptopCode,
-      value: '+300',
+      value: '+200',
       label: 'Projetos Digitais'
     },
     {
       icon: faLightbulb,
-      value: '+80',
+      value: '+50',
       label: 'Ideias Tiradas do Papel'
     }
   ];
