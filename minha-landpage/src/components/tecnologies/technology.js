@@ -6,7 +6,7 @@ const Technology = () => {
         <section className="technology">
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F317aad83-4522-467c-9417-e97db5604474_1280x720.png" alt="React" />
+                    <img src="../../assets/images/317aad83-4522-467c-9417-e97db5604474_1280x720.jpg" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -49,12 +49,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="https://newormedia.com/blog/wp-content/uploads/2022/09/AdobeStock_515709422-1024x614.jpeg" alt="React" />
+                    <img src="../../assets/images/AdobeStock_515709422-1024x614.jpeg" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://blog.embluemail.com/wp-content/uploads/2022/08/google-analytics-4-ecommerce.jpg" alt="React" />
+                    <img src="../../assets/images/google-analytics-4-ecommerce.jpg" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -103,12 +103,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/875a25535f45.jpg" alt="React" />
+                    <img src="../../assets/images/875a25535f45.jpg" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://images.raidboxes.io/raidboxes.io/uploads/2023/10/what-is-wordpress.png?fit=2048%2C1440" alt="React" />
+                    <img src="../../assets/images/what-is-wordpress.png" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -148,12 +148,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="https://www.tatvasoft.com/blog/wp-content/uploads/2022/07/Why-Use-React.jpg" alt="React" />
+                    <img src="../../assets/images/Why-Use-React.jpg" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://files.realpython.com/media/MySQL-and-Python_Watermarked.4353d1d57493.jpg" alt="React" />
+                    <img src="../../assets/images/MySQL-and-Python_Watermarked.png" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
