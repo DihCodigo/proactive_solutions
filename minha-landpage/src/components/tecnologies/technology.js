@@ -1,12 +1,19 @@
 import React from 'react';
 import './technology.css';
+import img1 from '../../assets/images/317aad83-4522-467c-9417-e97db5604474_1280x720.jpg';
+import img2 from '../../assets/images/AdobeStock_515709422-1024x614.jpeg';
+import img3 from '../../assets/images/google-analytics-4-ecommerce.jpg';
+import img4 from '../../assets/images/875a25535f45.jpg';
+import img5 from '../../assets/images/what-is-wordpress.png';
+import img6 from '../../assets/images/Why-Use-React.jpg';
+import img7 from '../../assets/images/MySQL-and-Python_Watermarked.png';
 
 const Technology = () => {
     return (
         <section className="technology">
             <div className="technologies">
                 <div className="box_img">
-                    <img src="../../assets/images/317aad83-4522-467c-9417-e97db5604474_1280x720.jpg" alt="React" />
+                    <img src="{img1}" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -49,12 +56,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="../../assets/images/AdobeStock_515709422-1024x614.jpeg" alt="React" />
+                    <img src="{img2}" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="../../assets/images/google-analytics-4-ecommerce.jpg" alt="React" />
+                    <img src="{img3}" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -103,12 +110,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="../../assets/images/875a25535f45.jpg" alt="React" />
+                    <img src="{img4}" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="../../assets/images/what-is-wordpress.png" alt="React" />
+                    <img src="{img5}" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -148,12 +155,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="../../assets/images/Why-Use-React.jpg" alt="React" />
+                    <img src="{img6}" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="../../assets/images/MySQL-and-Python_Watermarked.png" alt="React" />
+                    <img src="{img7}" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
