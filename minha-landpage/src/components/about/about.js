@@ -12,7 +12,7 @@ const About = () => {
     },
     {
       icon: faClock,
-      value: '+1000Horas',
+      value: '+6000Horas',
       label: 'Horas em Desenvolvimento'
     },
     {
