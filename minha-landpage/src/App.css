@@ -12,7 +12,7 @@ body, html {
 
 .App-header {
   height: 100vh;
-  background-image: url('../src/assets/images/home-banner-two-new.jpg');
+  background-image: url('../src/assets/images/banner.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

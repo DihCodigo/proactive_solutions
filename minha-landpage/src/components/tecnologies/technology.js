@@ -6,7 +6,7 @@ const Technology = () => {
         <section className="technology">
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/d1cqQf8s/GTM.png" alt="React" />
+                    <img src="https://i.postimg.cc/8PQnKSTP/gtm.png" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -49,12 +49,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/s2hjrzGH/GAM.png" alt="React" />
+                    <img src="https://i.postimg.cc/HLxScW93/gam.png" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/X7s7KQ0L/Analytics.png" alt="React" />
+                    <img src="https://i.postimg.cc/W1SW1qgh/analtics.png" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -103,12 +103,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/26dC1xw4/codigos.png" alt="React" />
+                    <img src="https://i.postimg.cc/28Q9gK5d/codigos.png" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/MpXZ9V6S/wordpress.png" alt="React" />
+                    <img src="https://i.postimg.cc/3x3fhFys/wp.png" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -148,12 +148,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/wjPqZMMs/react.png" alt="React" />
+                    <img src="https://i.postimg.cc/CKQcjyv0/react.png" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/Fz9N3JWw/mysql.png" alt="React" />
+                    <img src="https://i.postimg.cc/B6PMphyK/bd.png" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
