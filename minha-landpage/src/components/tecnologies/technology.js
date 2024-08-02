@@ -6,7 +6,7 @@ const Technology = () => {
         <section className="technology">
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/RVzc6Hd4/317aad83-4522-467c-9417-e97db5604474-1280x720.jpg" alt="React" />
+                    <img src="https://i.postimg.cc/d1cqQf8s/GTM.png" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -49,12 +49,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/Kvrtn8pL/875a25535f45.jpg" alt="React" />
+                    <img src="https://i.postimg.cc/s2hjrzGH/GAM.png" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/NjdTzPcj/google-analytics-4-ecommerce.jpg" alt="React" />
+                    <img src="https://i.postimg.cc/X7s7KQ0L/Analytics.png" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -103,12 +103,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/Kvrtn8pL/875a25535f45.jpg" alt="React" />
+                    <img src="https://i.postimg.cc/26dC1xw4/codigos.png" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/fL99kz0V/what-is-wordpress.png" alt="React" />
+                    <img src="https://i.postimg.cc/MpXZ9V6S/wordpress.png" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
@@ -148,12 +148,12 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/bvdbcHyH/Why-Use-React.jpg" alt="React" />
+                    <img src="https://i.postimg.cc/wjPqZMMs/react.png" alt="React" />
                 </div>
             </div>
             <div className="technologies">
                 <div className="box_img">
-                    <img src="https://i.postimg.cc/s28WVQ1F/My-SQL-and-Python-Watermarked.png" alt="React" />
+                    <img src="https://i.postimg.cc/Fz9N3JWw/mysql.png" alt="React" />
                 </div>
                 <div className="boxinfo">
                     <div className="title">
