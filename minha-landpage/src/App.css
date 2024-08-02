@@ -12,7 +12,7 @@ body, html {
 
 .App-header {
   height: 100vh;
-  background-image: url('../src/assets/images/banner.png');
+  background-image: url('../src/assets/images/transferir_waifu2x_photo_noise3_scale_waifu2x_photo_noise3_scale_2900.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -27,23 +27,30 @@ body, html {
   max-width: 760px;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  margin: auto 16px auto 60px;
+  height: 80vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 16px 0 60px;
 }
 
 .App-header__info h1 {
   text-shadow: rgb(0, 247, 255) 1px 0 10px;
+  text-align: left;
 }
 
 .App-header__btn {
   display: flex;
-  justify-content: right;
-  margin: auto 26px auto 60px;
+  justify-content: left;
+  margin: -110px 26px 0 26px;
+  width: 100%;
 }
 
 button.custom-button {
   margin-top: 20px;
   padding: 15px 40px;
-  background-color: #00d1b2;
+  background-color: #00c3d1;
   color: white;
   border: none;
   border-radius: 2px;

@@ -25,7 +25,7 @@ function App() {
           <h1>Soluções de Anúncios e Softwares sob medida</h1>
           <p></p>
           <div className="App-header__btn">
-            <button onClick={handleScrollToContact} className="custom-button">Contato</button>
+            <button onClick={handleScrollToContact} className="custom-button">Saiba mais</button>
           </div>
         </div>
       </header>
