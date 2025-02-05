@@ -32,9 +32,8 @@ function App() {
       <main>
       <div className="article-header"></div>
         {/* A tag do anúncio para teste */} 
-        <div className='r7ad-sunmedia'>
-            <cda-ad-player ad-hash="/7542/parceiros/dicionarioinformal/video"></cda-ad-player>
-        </div> 
+        
+        
         <section id="home" className="about-us">
           <p className="subtitle_p">
             "Na Proactive Solutions, transformamos ideias inovadoras em soluções digitais que geram resultados tangíveis. Com um foco em anúncios, criação de sites, e análise de dados, ajudamos empresas a maximizar seu potencial digital e alcançar novos patamares de sucesso."
