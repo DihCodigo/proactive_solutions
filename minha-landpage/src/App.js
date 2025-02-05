@@ -33,7 +33,7 @@ function App() {
       <div className="article-header"></div>
         {/* A tag do anúncio */} 
         <div className='r7ad-sunmedia'>
-            <cda-ad-player ad-hash="/7542/parceiros/amomeupet/video"></cda-ad-player>
+            <cda-ad-player ad-hash="/7542/parceiros/dicionarioinformal/video"></cda-ad-player>
         </div> 
         <section id="home" className="about-us">
           <p className="subtitle_p">
